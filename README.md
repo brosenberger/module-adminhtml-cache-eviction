@@ -30,7 +30,7 @@ The "Refresh Invalidated Caches" action is a dedicated GET controller that reads
 
 ## Install
 
-Drop the module into `app/code/Brocode/AdminhtmlCacheEviction`, then:
+Drop the module into `app/code/BroCode/AdminhtmlCacheEviction`, then:
 
 ```bash
 bin/magento module:enable BroCode_AdminhtmlCacheEviction
@@ -75,7 +75,7 @@ To test permission gating, assign the admin user a role that lacks `Magento_Back
 ## File tree
 
 ```
-Brocode/AdminhtmlCacheEviction/
+BroCode/AdminhtmlCacheEviction/
 ├── registration.php
 ├── composer.json
 ├── README.md

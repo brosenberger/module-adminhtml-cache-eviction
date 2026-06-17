@@ -1,2 +1,6 @@
 .claude/
 vendor/
+.DS_Store
+.idea/
+*.swp
+*.swo

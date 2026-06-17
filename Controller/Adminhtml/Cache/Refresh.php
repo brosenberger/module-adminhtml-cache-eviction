@@ -27,7 +27,7 @@
  */
 declare(strict_types=1);
 
-namespace Brocode\AdminhtmlCacheEviction\Controller\Adminhtml\Cache;
+namespace BroCode\AdminhtmlCacheEviction\Controller\Adminhtml\Cache;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;

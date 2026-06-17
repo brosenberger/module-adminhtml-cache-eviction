@@ -1,4 +1,4 @@
-# Brocode_AdminhtmlCacheEviction
+# BroCode_AdminhtmlCacheEviction
 
 Adds **quick-action links** directly to the Magento 2 admin cache-invalidated notification bar — the yellow warning that appears after saving a configuration value or any other action that invalidates caches. Admins can act on the spot without navigating to Cache Management.
 
@@ -33,7 +33,7 @@ The "Refresh Invalidated Caches" action is a dedicated GET controller that reads
 Drop the module into `app/code/Brocode/AdminhtmlCacheEviction`, then:
 
 ```bash
-bin/magento module:enable Brocode_AdminhtmlCacheEviction
+bin/magento module:enable BroCode_AdminhtmlCacheEviction
 bin/magento setup:upgrade
 bin/magento setup:di:compile   # production / compiled mode only
 bin/magento cache:flush
@@ -43,7 +43,7 @@ Or via Composer once the package is published:
 
 ```bash
 composer require brocode/module-adminhtml-cache-eviction
-bin/magento module:enable Brocode_AdminhtmlCacheEviction
+bin/magento module:enable BroCode_AdminhtmlCacheEviction
 bin/magento setup:upgrade
 bin/magento cache:flush
 ```

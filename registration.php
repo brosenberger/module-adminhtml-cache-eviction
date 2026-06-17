@@ -5,6 +5,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'Brocode_AdminhtmlCacheEviction',
+    'BroCode_AdminhtmlCacheEviction',
     __DIR__
 );

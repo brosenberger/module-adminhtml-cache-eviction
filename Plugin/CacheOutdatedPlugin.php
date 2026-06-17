@@ -27,7 +27,7 @@
  */
 declare(strict_types=1);
 
-namespace Brocode\AdminhtmlCacheEviction\Plugin;
+namespace BroCode\AdminhtmlCacheEviction\Plugin;
 
 use Magento\AdminNotification\Model\System\Message\CacheOutdated;
 use Magento\Framework\AuthorizationInterface;

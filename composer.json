@@ -1,0 +1,26 @@
+{
+    "name": "brocode/module-adminhtml-cache-eviction",
+    "description": "Adds quick-action links (Refresh Invalidated, Flush Magento Cache, Flush Cache Storage) to the Magento 2 admin cache-invalidated notification bar, so admins can act without navigating to Cache Management.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Rosenberger",
+            "email": "bensch.rosenberger@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0",
+        "magento/framework": ">=103.0.0",
+        "magento/module-admin-notification": "*",
+        "magento/module-backend": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Brocode\\AdminhtmlCacheEviction\\": ""
+        }
+    }
+}

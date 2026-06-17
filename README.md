@@ -2,6 +2,8 @@
 
 Adds **quick-action links** directly to the Magento 2 admin cache-invalidated notification bar — the yellow warning that appears after saving a configuration value or any other action that invalidates caches. Admins can act on the spot without navigating to Cache Management.
 
+**Module page:** [brocode.at/modules/module-adminhtml-cache-eviction/](https://brocode.at/modules/module-adminhtml-cache-eviction/)
+
 ---
 
 ## Why

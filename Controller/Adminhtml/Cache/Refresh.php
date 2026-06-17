@@ -73,6 +73,8 @@ class Refresh extends Action implements HttpGetActionInterface
             $this->messageManager->addNoticeMessage(__('No invalidated cache types found.'));
         }
 
-        return $this->resultRedirectFactory->create()->setPath('adminhtml/*');
+        $redirect = $this->resultRedirectFactory->create();
+        $redirect->setUrl($this->_redirect->getRefererUrl());
+        return $redirect;
     }
 }
